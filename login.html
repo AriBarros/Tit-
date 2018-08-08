@@ -1,94 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Titã</title>
-        <meta charset="UTF-8">
-        
-<link rel="shortcut icon" href="img/t.ico">
-        
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<html lang="en">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <head>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <style>
-            .Principal
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Titã</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="cssn/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="cssn/css/round-about.css" rel="stylesheet">
+
+    <style type="text/css">
+      
+      .form{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 8%;
+
+
+      }
+      footer{
+        position: fixed;
+        top: 89%;
+        right: 0%;
+        left: 0%;
+
+      }
+       .formulario
             {
-                background-color: #d8dfea;
-                background-image: linear-gradient(white,#d8dfea);
-                height: 80%;
-                position: relative;
-                
-            }
-            .formulario
-            {
+            
                 width: 24%;
                 margin: 0 auto;
                 text-align: center;
                 margin-top: 3%;
             }
-            a
-            {
-                text-decoration: none;
-                color: black;
-                margin-left: 40%;
-            }
-            #final
-            {
-                color: aliceblue;
-                text-align: center;
-                margin-top: 15%;
-                background-color:#b1bace  ;
-                height: 15%;
-                position: relative;
-            }
-            h1
-            {
-                margin: 0 auto;
-                text-align: center;
-                padding: 4%;
-                margin-top: 4%;
-            }
-            img{
-                position: absolute;
-                float:left;
-                margin-top: 5%;
-                opacity: 0.1;
-                margin-left: 5%;
-            }
-            .navbar
-            {
-                background-color: #b1bace ;
-            }
-       
-        </style>
+    </style>
 
-    </head>
-    
-<body>
-    
-<div class="Principal">
-    
-    
-<nav class="navbar navbar-default ">
-  <div class="container-fluid">
-   <div class="navbar-header">
-       <a class="navbar-brand" href="#" style="color: white; margin-left: 10%; "><b>TITÃ</b></a>
-   </div>
-  <ul class="nav navbar-nav" >
-     <li><a href="#" style="color: aliceblue;">Page </a></li>
-    <li><a href="#" style="color: aliceblue;">Page </a></li>
-     <li><a href="#" style="color: aliceblue;">Page </a></li>
-   </ul>
- </div>
-</nav>
-    
-  <img class="logo" src="img/t.ico" width="190px" title="T">
+  </head>
 
-    
-    
-    <h1>Faça seu login</h1>
-<div class="formulario">
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h1>Titã</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+            </li>
+	         <li class="nav-item active">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="form">
+     <h1 style="padding: 5%;">Faça o seu login</h1>
+     <div class="formulario">
   <form>
      <div class="form-group">
         <label for="email">Email:</label>
@@ -105,13 +96,22 @@
       <button type="submit" class="btn btn-default">Entrar</button>
 </form>
 </div>
-    
-<div id="final">
-    <p>Corporação Titã @ Web 2018</p>
-</div>
-   
- 
     </div>
-</body>
+
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Corporação Titã &copy; Seu Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
 
 </html>
