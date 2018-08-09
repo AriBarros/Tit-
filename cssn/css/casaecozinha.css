@@ -1,18 +1,23 @@
       footer
       {
-	position: fixed;
+	
         top: 89%;
         right: 0%;
         left: 0%;
 
       }
       h1{
+
       margin: 0 auto;
       text-align: center;
-      padding:3%;
+      padding:5%;
       margin-top: 5%;
       }
       .card-body{
             margin: 0 auto;
             text-align: center;
       }
+ .row
+        {
+            margin-top: 2%;
+        }
