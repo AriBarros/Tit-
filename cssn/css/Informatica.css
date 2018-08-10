@@ -1,7 +1,7 @@
       footer
       {
-        
-        top: 89%;
+        position: fixed;
+        top: 90%;
         right: 0%;
         left: 0%;
 
@@ -19,5 +19,5 @@
 
  	.row
         {
-            margin-top: 2%;
+          margin-bottom: 10%;
         }
