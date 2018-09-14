@@ -2,21 +2,26 @@
         margin: 0 auto;
         text-align: center;
         margin-top: 8%;
+	
+        
 
 
       }
       footer{
    
-        margin-top: 6%;
+        margin-top: 20%;
         right: 0%;
         left: 0%;
+	position: fixed;
 
       }
        .formulario
       {
             
         width: 24%;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 1%;
+       
+    
+      margin-left: 38%;
+      position: absolute; 
+
      }
