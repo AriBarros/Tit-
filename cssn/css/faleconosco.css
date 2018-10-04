@@ -1,0 +1,27 @@
+h3{
+      margin: 0 auto;
+      text-align: center;
+      padding:5%;
+      margin-top: 5%;
+}
+form{
+        float: center;
+        text-align: center;
+        margin-top: 3%;	
+	
+}
+ footer{
+   
+        margin-top: 12%;
+        right: 0%;
+        left: 0%;
+	position: fixed;
+	
+
+}
+.field{
+  margin: 15px;
+}
+
+
+
